@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SuperIDSDK">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/superIDdev/libs/SuperIDSDK.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
