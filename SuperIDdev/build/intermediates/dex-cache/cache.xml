@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/yuanshuobin/Documents/superid-android-sample/SuperIDdev/superIDdev/libs/SuperIDSDK.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="e2e80bca6c8c0bdbb5abfb58712eda325df3bc3d">
+        <dex dex="/Users/yuanshuobin/Documents/superid-android-sample/SuperIDdev/superIDdev/build/intermediates/pre-dexed/release/SuperIDSDK_59dfe5b082667d6875d1b886dbcb23780980bb92.jar" />
+    </item>
+
+</items>

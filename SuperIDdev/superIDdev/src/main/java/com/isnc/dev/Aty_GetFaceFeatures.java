@@ -1,14 +1,5 @@
 package com.isnc.dev;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -18,6 +9,14 @@ import android.widget.Toast;
 
 import com.isnc.facesdk.aty.Aty_FaceFeatures;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 //无扫描界面人脸登录
 public class Aty_GetFaceFeatures extends Aty_FaceFeatures {
 
@@ -25,15 +24,27 @@ public class Aty_GetFaceFeatures extends Aty_FaceFeatures {
 	private RelativeLayout rl;
 	private LinearLayout ll;
 
+
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.aty_faceemotion);
+	protected int getContentLayoutId() {
+		return R.layout.aty_faceemotion;
+	}
+
+	@Override
+	protected void initView() {
 		initFaceEmotion();
 		rl = (RelativeLayout) findViewById(R.id.facedatabg);
 		ll = (LinearLayout) findViewById(R.id.facedataload);
 		rl.setVisibility(View.VISIBLE);
-		// 执行人脸检测扫描
+	}
+
+	@Override
+	protected void initData() {
+
+	}
+
+	@Override
+	protected void initActions() {
 		faceDetecion();
 	}
 

@@ -6,42 +6,101 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ceb7b2c-a1ab-4fab-ab9e-f238dd07fb3c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_ico_fakeid_guideview_agree.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_ico_fakeid_guideview_tips1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_ico_fakeid_guideview_tips2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_ico_fakeid_guideview_tips3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_pop_guidefakeid.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/httpmime_4_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/superIDdev/libs/httpmime-4.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/superIDdev/src/main/jniLibs/armeabi-v7a/arm-lib.zip" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_confirm_btn_normal_unclickable.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_guideview_rebind_shake_ico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout-land/superid_activity_auth.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout-land/superid_activity_edituserinfo.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout-land/superid_activity_facedete.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout-land/superid_activity_secureemail.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout-land/superid_pop_facelogin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout-land/superid_pop_faceregist.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout-land/superid_pop_guideerror.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout-land/superid_pop_guideerthree.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout-land/superid_pop_guidefakeid.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout-land/superid_pop_guidelock.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout-land/superid_pop_guiderebundle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout-land/superid_pop_guideregerror.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout-land/superid_pop_guidestart.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_superIDdev_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_superIDdev_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_superIDdev_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_superIDdev_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_superIDdev_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_superIDdev_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_superIDdev_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_superIDdev_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_superIDdev_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_superIDdev_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_superIDdev_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_superIDdev_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/libs/SuperIDSDK.jar" afterPath="$PROJECT_DIR$/superIDdev/libs/SuperIDSDK.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_avatar_img_bg.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_avatar_img_bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_avatar_img_default.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_avatar_img_default.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_alert_fail_img.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_alert_fail_img.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_alert_success_img.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_alert_success_img.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_authorize_bg_img.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_authorize_bg_img.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_authorize_edit_ico.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_authorize_edit_ico.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_back_btn_disable.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_back_btn_disable.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_back_btn_normal.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_back_btn_normal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_confirm_btn_normal.9.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_confirm_btn_normal.9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_confirm_btn_normal_disable.9.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_confirm_btn_normal_disable.9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_delete_btn_normal.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_delete_btn_normal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_delete_btn_pressed.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_delete_btn_pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_edit_avatar_ico.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_edit_avatar_ico.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_edit_mail_ico_disable.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_edit_mail_ico_disable.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_edit_mail_ico_normal.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_edit_mail_ico_normal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_edit_mobilephone_ico_disable.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_edit_mobilephone_ico_disable.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_edit_mobilephone_ico_normal.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_edit_mobilephone_ico_normal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_edit_nickname_ico_disable.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_edit_nickname_ico_disable.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_edit_nickname_ico_normal.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_edit_nickname_ico_normal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_empower_bg_down.9.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_empower_bg_down.9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_empower_bg_up.9.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_empower_bg_up.9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_empower_select_ico_disable.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_empower_select_ico_disable.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_empower_select_ico_normal.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_empower_select_ico_normal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_secureemail_bg_img.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_secureemail_bg_img.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_tips1_ico.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_tips1_ico.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_tips_nightmode_jack_img.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_tips_nightmode_jack_img.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_tips_nightmode_lighton_img.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_common_tips_nightmode_lighton_img.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_editbox_focus.9.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_editbox_focus.9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_editbox_normal.9.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_editbox_normal.9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_guideview_facebinding_img.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_guideview_facebinding_img.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_guideview_facelock_img.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_guideview_facelock_img.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_guideview_rebind_dark_ico.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_guideview_rebind_dark_ico.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_guideview_rebind_img.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_guideview_rebind_img.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_guideview_rebind_light_ico.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_guideview_rebind_light_ico.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_guideview_record_img.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_guideview_record_img.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_guideview_scanface_img.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_guideview_scanface_img.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_ico_fakeid_guideview_agree.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_ico_fakeid_guideview_agree.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_ico_fakeid_guideview_tips1.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_ico_fakeid_guideview_tips1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_ico_fakeid_guideview_tips2.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_ico_fakeid_guideview_tips2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_ico_fakeid_guideview_tips3.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_ico_fakeid_guideview_tips3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_image_progress.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_image_progress.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_input_bg_focus.9.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_input_bg_focus.9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_show_head_toast_bg.9.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_show_head_toast_bg.9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_tips_scanface_img.png" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable-xhdpi/superid_tips_scanface_img.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/build.gradle" afterPath="$PROJECT_DIR$/superIDdev/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable/superid_barbtn_selector.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable/superid_barbtn_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/java/com/isnc/dev/Aty_GetFaceFeatures.java" afterPath="$PROJECT_DIR$/superIDdev/src/main/java/com/isnc/dev/Aty_GetFaceFeatures.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable/superid_button_backselector.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable/superid_button_backselector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable/superid_button_edittextclearselector.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable/superid_button_edittextclearselector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable/superid_button_faceselector.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable/superid_button_faceselector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable/superid_drawable_progress.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable/superid_drawable_progress.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable/superid_sidebar_background.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable/superid_sidebar_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/drawable/superid_text_selector.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/drawable/superid_text_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_activity_auth.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_activity_auth.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_activity_clippic.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_activity_clippic.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_activity_edituserinfo.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_activity_edituserinfo.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_activity_facedete.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_activity_facedete.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_common_bar.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_common_bar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_activity_secureemail.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_activity_secureemail.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_pop_facelogin.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_pop_facelogin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_pop_faceregist.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_pop_faceregist.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_pop_guideerror.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_pop_guideerror.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_pop_guideerthree.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_pop_guideerthree.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_pop_guidelock.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_pop_guidelock.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_pop_guiderebundle.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_pop_guiderebundle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_pop_guideregerror.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_pop_guideregerror.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_pop_guidefakeid.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_pop_guidefakeid.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_pop_guidestart.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/layout/superid_pop_guidestart.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/values-zh-rCN/superid_strings.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/values-zh-rCN/superid_strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superIDdev/src/main/res/values-zh-rHK/superid_strings.xml" afterPath="$PROJECT_DIR$/superIDdev/src/main/res/values-zh-rHK/superid_strings.xml" />
@@ -79,22 +138,25 @@
     <favorites_list name="SuperIDdev" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/superIDdev/src/main/res/values/strings.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="superid_activity_auth.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/superIDdev/src/main/res/layout-land/superid_activity_auth.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.96153843">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/superIDdev/build.gradle">
+      <file leaf-file-name="Aty_GetFaceFeatures.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/superIDdev/src/main/java/com/isnc/dev/Aty_GetFaceFeatures.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+              <caret line="69" column="35" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -103,8 +165,18 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/superIDdev/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.103626944">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.8549223">
+              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Aty_Welcome.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/superIDdev/src/main/java/com/isnc/dev/Aty_Welcome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -1591,119 +1663,6 @@
               <option name="name" value="SuperIDdev" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/announce" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/antlr" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/base-services" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/base-services-groovy" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/build-comparison" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/build-init" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/cli" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/code-quality" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/core" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/dependency-management" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/diagnostics" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/ear" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/ide" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/ide-native" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/internal-integ-testing" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/internal-testing" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/ivy" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/jacoco" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/javascript" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/jetty" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/language-groovy" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/language-java" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/language-jvm" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/language-native" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/language-scala" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/launcher" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/maven" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/messaging" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/model-core" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/model-groovy" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/native" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/open-api" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/osgi" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/platform-base" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/platform-jvm" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/platform-native" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/platform-play" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/plugin-development" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/plugin-use" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/plugins" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/publish" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/reporting" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/resources" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/resources-http" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/resources-s3" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/resources-sftp" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/scala" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/signing" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/sonar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/test-kit" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/testing-native" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/tooling-api" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/tooling-api-builders" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/ui" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/src/wrapper" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/ant-1.9.3.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/ant-launcher-1.9.3.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/gradle-base-services-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/gradle-base-services-groovy-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/gradle-cli-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/gradle-core-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/gradle-docs-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/gradle-launcher-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/gradle-messaging-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/gradle-model-core-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/gradle-model-groovy-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/gradle-native-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/gradle-open-api-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/gradle-resources-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/gradle-tooling-api-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/gradle-ui-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/gradle-wrapper-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/groovy-all-2.4.4.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-announce-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-antlr-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-build-comparison-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-build-init-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-code-quality-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-dependency-management-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-diagnostics-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-ear-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-ide-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-ide-native-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-ivy-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-jacoco-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-javascript-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-jetty-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-language-groovy-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-language-java-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-language-jvm-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-language-native-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-language-scala-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-maven-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-osgi-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-platform-base-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-platform-jvm-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-platform-native-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-platform-play-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-plugin-development-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-plugin-use-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-plugins-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-publish-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-reporting-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-resources-http-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-resources-s3-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-resources-sftp-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-scala-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-signing-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-sonar-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-test-kit-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-testing-native-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/gradle-tooling-api-builders-2.10.jar" />
-                  <option value="$USER_HOME$/Desktop/gradle-2.10/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -1722,6 +1681,7 @@
       <list>
         <option value="$PROJECT_DIR$/superIDdev/src/main/res/values-zh-rHK/superid_arrays.xml" />
         <option value="$PROJECT_DIR$/superIDdev/build.gradle" />
+        <option value="$PROJECT_DIR$/superIDdev/src/main/java/com/isnc/dev/Aty_GetFaceFeatures.java" />
         <option value="$PROJECT_DIR$/superIDdev/src/main/AndroidManifest.xml" />
       </list>
     </option>
@@ -1757,6 +1717,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1777,7 +1739,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1970,11 +1931,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="jniLibs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
+              <option name="myItemId" value="armeabi-v7a" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2000,11 +1961,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jniLibs" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="armeabi-v7a" />
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperIDdev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperIDdev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="superIDdev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2025,10 +2020,13 @@
               <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperIDSDK.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -2039,7 +2037,7 @@
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="recentsLimit" value="5" />
-    <property name="device.picker.selection" value="0487f44ed3940753" />
+    <property name="device.picker.selection" value="BY2XEE156D060123" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../workspace/isnc" />
     <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/superIDdev" />
     <property name="ExportApk.Flavors" value="" />
@@ -2051,7 +2049,7 @@
       <recent name="$PROJECT_DIR$/superIDdev/src/main/res/values-zh-rHK" />
       <recent name="$PROJECT_DIR$/superIDdev/src/main/res/values-zh-rCN" />
       <recent name="$PROJECT_DIR$/superIDdev/src/main/res/values" />
-      <recent name="$PROJECT_DIR$/superIDdev/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/superIDdev/src/main/res" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.superIDdev">
@@ -2212,6 +2210,23 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SuperIDdev" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -2274,6 +2289,111 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SuperIDdev" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SuperIDdev" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SuperIDdev" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SuperIDdev" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SuperIDdev" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="superIDdev" type="AndroidRunConfigurationType" factoryName="Android Application" activateToolWindowBeforeRun="false">
@@ -2340,34 +2460,34 @@
     <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.49574015" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.48296058" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32943678" sideWeight="0.5149095" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32943678" sideWeight="0.48509052" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5170394" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.4765708" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2378,11 +2498,193 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/local.properties">
+    <entry file="file://$PROJECT_DIR$/superIDdev/src/main/res/layout-land/superid_activity_auth.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/src/main/java/com/isnc/dev/Aty_GetFaceFeatures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/src/main/res/layout-land/superid_activity_auth.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/src/main/java/com/isnc/dev/Aty_GetFaceFeatures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/src/main/res/layout-land/superid_activity_auth.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/src/main/res/layout-land/superid_activity_auth.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/src/main/java/com/isnc/dev/Aty_GetFaceFeatures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2390,7 +2692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2398,7 +2699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2406,15 +2706,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$USER_HOME$/StudioProjects/androidsdk_as/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.052083332">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/StudioProjects/facesdk/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5729167">
+          <caret line="23" column="5" selection-start-line="20" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -2422,7 +2742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2469,42 +2788,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/superIDdev/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.96153843">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/StudioProjects/androidsdk_as/gradlew">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.052083332">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/StudioProjects/facesdk/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5729167">
-          <caret line="23" column="5" selection-start-line="20" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/superIDdev/build.gradle">
+    <entry file="file://$PROJECT_DIR$/superIDdev/src/main/res/layout-land/superid_activity_auth.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/superIDdev/libs/SuperIDSDK.jar!/com/isnc/facesdk/aty/Aty_FaceFeatures.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24479167">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/src/main/java/com/isnc/dev/Aty_Welcome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superIDdev/src/main/java/com/isnc/dev/Aty_GetFaceFeatures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="35" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/superIDdev/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.103626944">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.8549223">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
           <folding />
         </state>
       </provider>
