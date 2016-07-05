@@ -235,7 +235,7 @@ public class Aty_UserCenter extends Activity {
 		// 有界面刷脸获取人脸表情成功
 		case SDKConfig.GETEMOTIONRESULT:
 			Intent intent = new Intent(this, Aty_AppGetFaceFeatures.class);
-			intent.putExtra("facedata", data.getStringExtra(SDKConfig.FACEDATA));
+			intent.putExtra("facedata", data.getStringExtra("facedata"));
 			startActivity(intent);
 			break;
 		// 有界面刷脸获取人脸表情失败
