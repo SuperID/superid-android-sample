@@ -82,97 +82,98 @@ public class Aty_UserCenter extends Activity {
         //
 //					}
 //				});
-        if (!Cache.getCached(context, SDKConfig.KEY_ACCESSTOKEN).equals("")) {
-            btn_spbundle.setText("解除绑定");
-            btn_spbundle.setTextColor(getResources().getColor(R.color.s_color_font_contant));
-            icon_sp.setImageDrawable(getResources().getDrawable(R.drawable.superid_demo_binding_superid_ico_normal));
-        } else {
-            btn_spbundle.setText("点击绑定");
-            btn_spbundle.setTextColor(getResources().getColor(R.color.s_demo_color_background_red));
-            icon_sp.setImageDrawable(getResources().getDrawable(R.drawable.superid_demo_binding_superid_ico_disable));
-        }
-        // 开发者应用自己用户的信息
-        userinfo = SuperID.formatInfo(this, "name", "Someone", "email", "someone@superid.me", "avatar",
-                "http://spapi1.qiniudn.com/res/avatar.jpg");
 
-        // 使用人脸登录后获取的一登用户信息
-        String appinfo = Cache.getCached(context, SDKConfig.KEY_APPINFO);
-        if (!appinfo.equals("")) {
-            try {
-                JSONObject obj = new JSONObject(appinfo);
-                tv_phonenum.setText(obj.getString(SDKConfig.KEY_PHONENUM));
-                tv_name.setText(SuperIDUtils.judgeChina(obj.getString(SDKConfig.KEY_NAME), 10));
+		if (!Cache.getCached(context, SDKConfig.KEY_ACCESSTOKEN).equals("")) {
+			btn_spbundle.setText("解除绑定");
+			btn_spbundle.setTextColor(getResources().getColor(R.color.s_color_font_contant));
+			icon_sp.setImageDrawable(getResources().getDrawable(R.drawable.superid_demo_binding_superid_ico_normal));
+		} else {
+			btn_spbundle.setText("点击绑定");
+			btn_spbundle.setTextColor(getResources().getColor(R.color.s_demo_color_background_red));
+			icon_sp.setImageDrawable(getResources().getDrawable(R.drawable.superid_demo_binding_superid_ico_disable));
+		}
+		// 开发者应用自己用户的信息
+		userinfo = SuperID.formatInfo(this, "name", "Someone", "email", "someone@superid.me", "avatar",
+				"http://spapi1.qiniudn.com/res/avatar.jpg");
 
-                AsyncBitmapLoader asyncBitmapLoader = new AsyncBitmapLoader();
-                asyncBitmapLoader.loadBitmap(this, Cache.getCached(context, SDKConfig.KEY_PHONENUM), avatarimg,
-                        obj.getString(SDKConfig.KEY_AVATAR), new ImageCallBack() {
+		// 使用人脸登录后获取的一登用户信息
+		String appinfo = Cache.getCached(context, SDKConfig.KEY_APPINFO);
+		if (!appinfo.equals("")) {
+			try {
+				JSONObject obj = new JSONObject(appinfo);
+				tv_phonenum.setText(obj.getString(SDKConfig.KEY_PHONENUM));
+				tv_name.setText(SuperIDUtils.judgeChina(obj.getString(SDKConfig.KEY_NAME), 10));
 
-                            public void imageLoad(ImageView imageView, Bitmap bitmap) {
-                                imageView.setImageBitmap(SuperIDUtils.getRoundedCornerBitmap(bitmap, 480));
-                            }
-                        });
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-        } else {
-            // 开发者应用的用户信息
-            tv_name.setText("Someone");
-            AsyncBitmapLoader asyncBitmapLoader = new AsyncBitmapLoader();
-            asyncBitmapLoader.loadBitmap(this, "superidavatar", avatarimg, "http://spapi1.qiniudn.com/res/avatar.jpg",
-                    new ImageCallBack() {
+				AsyncBitmapLoader asyncBitmapLoader = new AsyncBitmapLoader();
+				asyncBitmapLoader.loadBitmap(this, Cache.getCached(context, SDKConfig.KEY_PHONENUM), avatarimg,
+						obj.getString(SDKConfig.KEY_AVATAR), new ImageCallBack() {
 
-                        public void imageLoad(ImageView imageView, Bitmap bitmap) {
-                            imageView.setImageBitmap(SuperIDUtils.getRoundedCornerBitmap(bitmap, 480));
-                        }
-                    });
-        }
+							public void imageLoad(ImageView imageView, Bitmap bitmap) {
+								imageView.setImageBitmap(SuperIDUtils.getRoundedCornerBitmap(bitmap, 480));
+							}
+						});
+			} catch (JSONException e) {
+				e.printStackTrace();
+			}
+		} else {
+			// 开发者应用的用户信息
+			tv_name.setText("Someone");
+			AsyncBitmapLoader asyncBitmapLoader = new AsyncBitmapLoader();
+			asyncBitmapLoader.loadBitmap(this, "superidavatar", avatarimg, "http://spapi1.qiniudn.com/res/avatar.jpg",
+					new ImageCallBack() {
 
-
-    }
+						public void imageLoad(ImageView imageView, Bitmap bitmap) {
+							imageView.setImageBitmap(SuperIDUtils.getRoundedCornerBitmap(bitmap, 480));
+						}
+					});
+		}
 
 
-    public void btn_unbundle(View v) {
-        if (!Cache.getCached(context, SDKConfig.KEY_ACCESSTOKEN).equals("")) {
-            // 解除绑定
-            AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setMessage("是否解除与一登账号的绑定？").setCancelable(false)
-                    .setPositiveButton("是", new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int id) {
+	}
 
-                            // 解绑
-                            SuperID.userCancelAuthorization(context, new IntSuccessCallback() {
+	
+	public void btn_unbundle(View v) {
+		if (!Cache.getCached(context, SDKConfig.KEY_ACCESSTOKEN).equals("")) {
+			// 解除绑定
+			AlertDialog.Builder builder = new AlertDialog.Builder(this);
+			builder.setMessage("是否解除与一登账号的绑定？").setCancelable(false)
+					.setPositiveButton("是", new DialogInterface.OnClickListener() {
+						public void onClick(DialogInterface dialog, int id) {
 
-                                @Override
-                                public void onSuccess(int arg0) {
-                                    Cache.deleCached(context, SDKConfig.KEY_ACCESSTOKEN);
-                                    Cache.deleCached(context, "demo_phone");
-                                    btn_spbundle.setText("点击绑定");
-                                    btn_spbundle.setTextColor(getResources().getColor(
-                                            R.color.s_demo_color_background_red));
-                                    icon_sp.setImageDrawable(getResources().getDrawable(
-                                            R.drawable.superid_demo_binding_superid_ico_disable));
-                                }
-                            }, new IntFailCallback() {
+							// 解绑
+							SuperID.userCancelAuthorization(context, new IntSuccessCallback() {
 
-                                @Override
-                                public void onFail(int error) {
-                                    Toast.makeText(context, "解绑失败", Toast.LENGTH_SHORT).show();
-                                }
-                            });
+								@Override
+								public void onSuccess(int arg0) {
+									Cache.deleCached(context, SDKConfig.KEY_ACCESSTOKEN);
+									Cache.deleCached(context, "demo_phone");
+									btn_spbundle.setText("点击绑定");
+									btn_spbundle.setTextColor(getResources().getColor(
+											R.color.s_demo_color_background_red));
+									icon_sp.setImageDrawable(getResources().getDrawable(
+											R.drawable.superid_demo_binding_superid_ico_disable));
+								}
+							}, new IntFailCallback() {
 
-                        }
-                    }).setNegativeButton("否", new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialog, int id) {
-                    dialog.dismiss();
-                }
-            }).show();
+								@Override
+								public void onFail(int error) {
+									Toast.makeText(context, "解绑失败", Toast.LENGTH_SHORT).show();
+								}
+							});
 
-        } else {
-            //绑定一登账号 FaceBundle(Activity activity, String uid, String userinfo)
-            SuperID.faceBundle(Aty_UserCenter.this, String.valueOf(System.currentTimeMillis()), userinfo);
-        }
+						}
+					}).setNegativeButton("否", new DialogInterface.OnClickListener() {
+						public void onClick(DialogInterface dialog, int id) {
+							dialog.dismiss();
+						}
+					}).show();
 
-    }
+		} else {
+			//绑定一登账号 FaceBundle(Activity activity, String uid, String userinfo)
+			SuperID.faceBundle(Aty_UserCenter.this, String.valueOf(System.currentTimeMillis()), userinfo);
+		}
+
+	}
 
     // 刷脸验证 SuperID.faceVerify(context, count); count为验证失败重试次数
     public void btn_faceverify(View v) {
