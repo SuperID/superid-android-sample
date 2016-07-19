@@ -82,6 +82,7 @@ public class Aty_UserCenter extends Activity {
 		//
 //					}
 //				});
+
 		if (!Cache.getCached(context, SDKConfig.KEY_ACCESSTOKEN).equals("")) {
 			btn_spbundle.setText("解除绑定");
 			btn_spbundle.setTextColor(getResources().getColor(R.color.s_color_font_contant));

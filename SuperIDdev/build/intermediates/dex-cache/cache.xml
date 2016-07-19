@@ -12,8 +12,15 @@
         jar="/Users/yuanshuobin/Documents/superid-android-sample/SuperIDdev/superIDdev/libs/SuperIDSDK.jar"
         jumboMode="true"
         revision="23.0.0"
-        sha1="6148a80cdbbd2172ff878c1280c20dce72e4b3f5">
+        sha1="6af685d8c29df1889762f15353756487c4933681">
         <dex dex="/Users/yuanshuobin/Documents/superid-android-sample/SuperIDdev/superIDdev/build/intermediates/transforms/dex/debug/folders/1000/2/SuperIDSDK_59dfe5b082667d6875d1b886dbcb23780980bb92/classes.dex" />
+    </item>
+    <item
+        jar="/Users/yuanshuobin/Documents/superid-android-sample/SuperIDdev/superIDdev/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.0"
+        sha1="525830efdb754eeb6b577fe7709011da2b4e08ac">
+        <dex dex="/Users/yuanshuobin/Documents/superid-android-sample/SuperIDdev/superIDdev/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ffca362f964d4cc56598fb498c955acb5580b2f0/classes.dex" />
     </item>
 
 </items>
