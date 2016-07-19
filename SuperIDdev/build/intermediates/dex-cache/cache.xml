@@ -2,25 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/yuanshuobin/Documents/superid-android-sample/SuperIDdev/superIDdev/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/liangjie/faceSdk/superid-android-sample/SuperIDdev/superIDdev/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.0"
-        sha1="3e8414845c0c58e39d4410bf930e5bbd44a9b033">
-        <dex dex="/Users/yuanshuobin/Documents/superid-android-sample/SuperIDdev/superIDdev/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ffca362f964d4cc56598fb498c955acb5580b2f0/classes.dex" />
-    </item>
-    <item
-        jar="/Users/yuanshuobin/Documents/superid-android-sample/SuperIDdev/superIDdev/libs/SuperIDSDK.jar"
-        jumboMode="true"
-        revision="23.0.0"
-        sha1="2202900bb6f742353a14f9db6a546968020fcf2b">
-        <dex dex="/Users/yuanshuobin/Documents/superid-android-sample/SuperIDdev/superIDdev/build/intermediates/transforms/dex/debug/folders/1000/2/SuperIDSDK_59dfe5b082667d6875d1b886dbcb23780980bb92/classes.dex" />
-    </item>
-    <item
-        jar="/Users/yuanshuobin/Documents/superid-android-sample/SuperIDdev/superIDdev/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        revision="23.0.0"
-        sha1="21e8178c0ad31f99e9c2913f7a180f4f0ec2b7a8">
-        <dex dex="/Users/yuanshuobin/Documents/superid-android-sample/SuperIDdev/superIDdev/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5a6696e235eed345934566c47c0c8bb133461569/classes.dex" />
+        sha1="0ebda6facedf4343ff7febf9b91c67dc630cab6e">
+        <dex dex="/Users/liangjie/faceSdk/superid-android-sample/SuperIDdev/superIDdev/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_045560705762a1b28cffad02ca697fde2c5fbf05/classes.dex" />
     </item>
 
 </items>

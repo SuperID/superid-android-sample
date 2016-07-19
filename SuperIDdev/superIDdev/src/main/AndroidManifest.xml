@@ -124,6 +124,16 @@
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
+        <activity
+            android:name="com.isnc.dev.Aty_GroupFace"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.isnc.dev.FaceGroupCompareDemo"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
         <service android:name="com.isnc.facesdk.soloader.DownloadService"/>
     </application>
 

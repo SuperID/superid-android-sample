@@ -12,6 +12,8 @@
 bin/
 gen/
 
+build
+
 # Local configuration file (sdk path, etc)
 local.properties
 local.gradle

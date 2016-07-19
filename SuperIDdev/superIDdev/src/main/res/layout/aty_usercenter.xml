@@ -264,6 +264,31 @@
                     android:textColor="@color/s_demo_color_background_red"
                     android:textSize="16sp" />
             </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12dp"
+                    android:gravity="center_vertical"
+                    android:text="1:N"
+                    android:textColor="@color/s_color_font_main"
+                    android:textSize="@dimen/s_size_font_text" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="25dp"
+                    android:background="@null"
+                    android:onClick="btn_groupFace"
+                    android:text="点击体验"
+                    android:textColor="@color/s_demo_color_background_red"
+                    android:textSize="16sp" />
+            </RelativeLayout>
         </LinearLayout>
 
         <Button
