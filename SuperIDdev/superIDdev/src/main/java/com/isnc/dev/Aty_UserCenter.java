@@ -47,10 +47,10 @@ public class Aty_UserCenter extends Activity {
         tv_phonenum = (TextView) findViewById(R.id.tv_phonenum);
         tv_name = (TextView) findViewById(R.id.tv_name);
 
-        // 判断当前用户是否授权，由于本demo没有自己的用户体系及uid，所以用以记录在SharedPreferences里的SDKConfig.KEY_ACCESSTOKEN判断。
-        // 开发者检测当前用户是否授权时，应调用SuperID.UidAuthorized方法，示例如下：
-//				SuperID.UidAuthorized(context, "uid123456", new SuperID.IntSuccessCallback() {
-        //
+        // 判断当前用户是否授权,，可以采用isOpenIDAuthorized判断，本demo为了方便，以记录在SharedPreferences里的SDKConfig.KEY_ACCESSTOKEN判断。
+        // 开发者检测当前用户是否授权时，应调用SuperID.isOpenIDAuthorized，示例如下：
+//				SuperID.isOpenIDAuthorized(context, "uid123456", new SuperID.IntSuccessCallback() {
+//
 //					@Override
 //					public void onSuccess(int arg0) {
 //						switch (arg0) {
@@ -63,10 +63,10 @@ public class Aty_UserCenter extends Activity {
 //						default:
 //							break;
 //						}
-        //
+//
 //					}
 //				}, new SuperID.IntFailCallback() {
-        //
+//
 //					@Override
 //					public void onFail(int arg0) {
 //						switch (arg0) {
@@ -79,7 +79,7 @@ public class Aty_UserCenter extends Activity {
 //						default:
 //							break;
 //						}
-        //
+//
 //					}
 //				});
 
