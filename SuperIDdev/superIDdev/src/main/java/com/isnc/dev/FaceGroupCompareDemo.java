@@ -20,7 +20,8 @@ public class FaceGroupCompareDemo extends Aty_BaseGroupCompare {
 
     TextView tv;
     FrameLayout mContainer;
-    String groupId, appId;
+    String gidString, sidString;
+
     @Override
     protected int getContentLayoutId() {
         return R.layout.aty_facesdemo;
@@ -35,27 +36,26 @@ public class FaceGroupCompareDemo extends Aty_BaseGroupCompare {
 //        int[] size = {480, 640};
         //initFacesFeature(size);
         //横竖屏切换
-        HashMap<String, String> infos = SuperIDUtils.getappinfo(this, "SUPERID_APPKEY", "SUPERID_SECRET");
-        appId = infos.get("SUPERID_APPKEY");
-        if (getResources().getConfiguration().orientation!=Configuration.ORIENTATION_LANDSCAPE) {
+        if (getResources().getConfiguration().orientation != Configuration.ORIENTATION_LANDSCAPE) {
             initFacesFeature(size);
-            isPortrait=true;
-        }else {
-            isPortrait=false;
+            isPortrait = true;
+        } else {
+            isPortrait = false;
             initFacesFeature(sizeLand);
-            mFacesGroupCompareView.setPortrait(false, false);
+            mFacesGroupCompareView.setLand(true);
         }
-//        mFacesGroupCompareView.setPortrait(false, false);//横屏锁定时需要调用
         //设置摄像头 前1 后0
-        setCameraType(1);
-        //开始执行人脸检测
-//        facesDetect();
-        facesDetect(appId,groupId);
+//        setCameraType(0);
+//        //开始执行人脸检测
+//        facesDetect(sidString, gidString);
     }
+
 
     @Override
     protected void initData() {
-        groupId=getIntent().getStringExtra("groupId");
+        gidString = getIntent().getStringExtra("groupId");
+        HashMap<String, String> infos = SuperIDUtils.getappinfo(this, "SUPERID_APPKEY", "SUPERID_SECRET");
+        sidString = infos.get("SUPERID_APPKEY");
     }
 
     @Override
@@ -64,11 +64,12 @@ public class FaceGroupCompareDemo extends Aty_BaseGroupCompare {
 
             @Override
             public void onClick(View v) {
-                //切换摄像头d
+                //切换摄像头
                 changeCamera();
             }
         });
     }
+
 
     //抓取人脸post服务器 返回数据操作
     @Override
@@ -81,7 +82,7 @@ public class FaceGroupCompareDemo extends Aty_BaseGroupCompare {
     //抓去人脸返回失败处理
     @Override
     protected void doFacesCallBackFail(int errorCode) {
-        tv.setText("获取失败,errorCode:"+errorCode);
+        tv.setText("获取失败,errorCode:" + errorCode);
         Toast.makeText(this, "获取失败", Toast.LENGTH_SHORT).show();
         super.doFacesCallBackFail(errorCode);
     }
@@ -96,10 +97,9 @@ public class FaceGroupCompareDemo extends Aty_BaseGroupCompare {
 
     //重试
     public void btnRetry(View v) {
-        DebugMode.debug(">>>>>>>>"+isPortrait);
         initFacesFeature(isPortrait ? null : sizeLand);
         tv.setVisibility(View.GONE);
-        facesDetect(appId, groupId);
+        facesDetect(sidString, gidString);
     }
 
     int[] sizeLand = {640, 480};//横屏时宽高比
@@ -113,16 +113,21 @@ public class FaceGroupCompareDemo extends Aty_BaseGroupCompare {
             case Configuration.ORIENTATION_LANDSCAPE:
                 isPortrait = false;
                 initFacesFeature(sizeLand);
-                mFacesGroupCompareView.setPortrait(false, true);
-                facesDetect(appId, groupId);
-//                initFacesFeature(sizeLand);
+                mFacesGroupCompareView.setLand(true);
+                facesDetect(sidString, gidString);
                 break;
             case Configuration.ORIENTATION_PORTRAIT:
                 isPortrait = true;
                 initFacesFeature(size);
-                mFacesGroupCompareView.setPortrait(true, true);
-                facesDetect(appId, groupId);
+                mFacesGroupCompareView.setLand(false);
+                facesDetect(sidString, gidString);
                 break;
         }
+    }
+
+    @Override
+    public void onPause() {
+        DebugMode.debug(">>>>onPause>>>>");
+        super.onPause();
     }
 }

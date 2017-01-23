@@ -8,32 +8,27 @@
         android:layout_height="fill_parent"
         android:gravity="center">
 
-        <com.isnc.facesdk.view.FaceRegistView
+        <com.isnc.facesdk.view.FaceDetectView
             android:id="@+id/facesfeatureview"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_gravity="center"/>
 
-        <SurfaceView
-            android:id="@+id/infoSurfaceView"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_gravity="center"/>
     </FrameLayout>
 
     <Button
         android:id="@+id/button1"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:background="@color/s_demo_color_background_red"
+        android:layout_alignParentTop="true"
         android:onClick="btnRetry"
-        android:text="retry"/>
+        android:text="开始"/>
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
         android:background="#ffffff"
         android:text="TextView"
         android:visibility="gone"/>
